@@ -1,9 +1,5 @@
-.container {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
-
-#output {
-    margin-top: 20px;
+.agent-container {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
 }

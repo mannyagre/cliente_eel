@@ -33,6 +33,7 @@ def start_websocket():
 
 @eel.expose
 def get_received_messages():
+    print("Enviando mensajes al frontend:", received_messages)  # Línea de depuración
     return received_messages
 
 if __name__ == '__main__':
