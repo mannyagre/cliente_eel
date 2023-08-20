@@ -5,9 +5,7 @@ async function connectWebSocket() {
 
 async function updateMessages() {
     let messages = await eel.get_received_messages()();
-    let output = document.getElementById('output');
-    output.innerHTML = "Datos recibidos: " + JSON.stringify(messages);
-
+    
     // Limpiar gráficas e información anteriores
     let chartContainer = document.getElementById('chart-container');
     chartContainer.innerHTML = '';
