@@ -1,0 +1,9 @@
+.container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#output {
+    margin-top: 20px;
+}
